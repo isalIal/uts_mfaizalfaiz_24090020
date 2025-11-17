@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - UTS Web</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+  </head>
+  <body id="dashboard-page">
+    <div class="app-container">
+      <aside class="sidebar">
+        <nav class="sidebar-nav">
+          <a href="dashboard.html" title="Dashboard" class="active"
+            ><i class="fas fa-home"></i
+          ></a>
+          <a href="#" title="Menu 2"><i class="fas fa-th-large"></i></a>
+          <a href="products.html" title="Product List"
+            ><i class="fas fa-box"></i
+          ></a>
+          <a href="#" title="Menu 4"><i class="fas fa-chart-bar"></i></a>
+          <a href="#" title="Settings" style="margin-top: auto"
+            ><i class="fas fa-cog"></i
+          ></a>
+        </nav>
+      </aside>
+
+      <main class="main-content">
+        <div class="header">
+          <h2>Dashboard</h2>
+        </div>
+
+        <div class="card-summary">
+          <div class="card">
+            <i class="icon fas fa-shopping-bag"></i>
+            <p>Total Products</p>
+            <h3 id="total-products">0</h3>
+          </div>
+
+          <div class="card">
+            <i class="icon fas fa-shopping-cart"></i>
+            <p>Total Sales</p>
+            <h3 id="total-sales">0</h3>
+          </div>
+
+          <div class="card">
+            <i class="icon fas fa-dollar-sign"></i>
+            <p>Total Revenue</p>
+            <h3 id="total-revenue">Rp 0</h3>
+          </div>
+        </div>
+
+        <a href="products.html" class="action-button">Lihat Data Produk</a>
+      </main>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
